@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+.slider-height {
+    height: 89vh !important;
+}
+
+.header-one {
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: #FF8000;
+}
+
+.header-two {
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.header-three {
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    color: #FF8000;
+}
+
+.centered {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-two {
+    position: absolute !important;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span:hover {
+    color: #FF8000;
+}
+
+.card {
+    color: white;
+    background-color: #0A0A2A;
+}
+
+.enroll-btn {
+    color: white !important;
+    font-weight: bold;
+    background-color: #FF8000;
+    border: 0 !important;
+}
+
+.enroll-btn:hover {
+    color: white !important;
+    font-weight: bold;
+    background-color: #FE9A2E;
+    border: 0 !important;
+}
+
+#testimonial-bg {
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/6.jpg");
+}
+
+.testimonial-container {
+    background-image: url("img/6.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 80vh;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul.no-style-list{
+    list-style-type: none;
+
+}
+.dash {
+    background-color: #FF4000;
+    width: 50px;
+    height: 2px;
+}
+
+.footer-menu {
+    list-style: square;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.circle-list ul {
+    list-style-type: circle !important;
+}
